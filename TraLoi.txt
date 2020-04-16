@@ -1,0 +1,11 @@
+Câu 4:+ Khi ta ấn nút back các phương thức vòng đời chạy lần lượt từ:
+		onPause => onStop => onDestroy(hết)
+      + Khi ta mở lại ứng dụng các phương thức vòng đời chạy lần lượt từ:
+		onCreate => onStar => onResume(hết)
+Câu 5:+ Khi ta ấn nút Home các phương thức vòng đời chạy lần lượt từ:
+		onPause => onStop(hết)
+      + Khi ta mở lại ứng dụng các phương thức vòng đời chạy lần lượt từ:
+		onRestar => onStar => onResume(hết)
+Câu 6: Để lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng  khi chạy 
+	lại ứng dụng thì ta sẽ thực thiện trong phương thức vòng đời "onResume" bởi vì onResume
+	Luôn chạy trước khi Activity bắt đầu tương tác và nhận input của người dùng
